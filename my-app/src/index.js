@@ -9,6 +9,8 @@ import Clock from "./chapter_04/Clock";
 import CommentList from "./chapter_05/CommentList";
 import NofificationList from "./chapter_06/NotificationList";
 import Accommodate from "./chapter_07/Accommodate";
+import ConfirmButton from "./chapter_08/ConfirmButton";
+import ConfirmButtonFunction from "./chapter_08/ConfirmButtonFunction";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // setInterval(() => {
@@ -19,7 +21,9 @@ root.render(
     {/* <Clock /> */}
     {/* <CommentList /> */}
     {/* <NofificationList /> */}
-    {<Accommodate />}
+    {/* {<Accommodate />} */}
+    {/* <ConfirmButton /> */}
+    <ConfirmButtonFunction />
   </React.StrictMode>
 );
 // }, 1000);
