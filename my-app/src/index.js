@@ -14,6 +14,7 @@ import ConfirmButtonFunction from "./chapter_08/ConfirmButtonFunction";
 import LandingPage from "./chapter_09/LandingPage";
 import AttendanceBook from "./chapter_10/AttendanceBook";
 import SignUp from "./chapter_11/SignUp";
+import Calculator from "./chapter_12/Calculator";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // setInterval(() => {
@@ -29,7 +30,8 @@ root.render(
     {/* <ConfirmButtonFunction /> */}
     {/* <LandingPage /> */}
     {/* <AttendanceBook /> */}
-    <SignUp />
+    {/* <SignUp /> */}
+    <Calculator />
   </React.StrictMode>
 );
 // }, 1000);
