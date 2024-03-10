@@ -1,3 +1,5 @@
+import React from "react";
+
 const scaleNames = {
   c: "섭씨",
   f: "화씨",
