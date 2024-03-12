@@ -6,7 +6,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-contents: center;
+  justify-content: center;
 
   & > * {
     :not(:last-child) {
@@ -21,7 +21,7 @@ function CommentList(props) {
   return (
     <Wrapper>
       {comments.map((comment, index) => {
-        return <CommentList key={comment.id} comment={comment} />;
+        return <CommentListItem key={comment.id} comment={comment} />;
       })}
     </Wrapper>
   );

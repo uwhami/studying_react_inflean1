@@ -23,7 +23,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // setInterval(() => {
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <Library /> */}
     {/* <Clock /> */}
     {/* <CommentList /> */}
@@ -37,7 +37,7 @@ root.render(
     {/* <Calculator /> */}
     {/* <ProfileCard /> */}
     {/* <DarkOrLight /> */}
-    <Blocks />
+    {/* <Blocks /> */}
   </React.StrictMode>
 );
 // }, 1000);
